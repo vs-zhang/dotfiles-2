@@ -13,6 +13,7 @@ elif [[ $unamestr == 'Darwin' ]]; then
 fi
 
 # YADR support
+alias d='cd ~/.yadr'
 alias yadr='cd ~/.yadr'
 alias yav='yadr vim-add-plugin'
 alias ydv='yadr vim-delete-plugin'
