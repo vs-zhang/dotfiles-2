@@ -13,6 +13,7 @@ elif [[ $unamestr == 'Darwin' ]]; then
 fi
 
 # YADR support
+alias yadr='cd ~/.yadr'
 alias yav='yadr vim-add-plugin'
 alias ydv='yadr vim-delete-plugin'
 alias ylv='yadr vim-list-plugin'
@@ -27,6 +28,7 @@ alias psr='ps aux | grep ruby'
 # Moving around
 alias cdb='cd -'
 alias cls='clear;ls'
+alias code='cd ~/code'
 
 # Show human friendly numbers and colors
 alias df='df -h'
