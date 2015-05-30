@@ -128,3 +128,5 @@
 [user]
 	email = vincentzhang1209@gmail.com
 	name = vs-zhang
+[credential]
+	helper = osxkeychain
